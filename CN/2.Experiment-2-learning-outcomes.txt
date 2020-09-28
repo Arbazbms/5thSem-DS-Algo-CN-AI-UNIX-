@@ -1,0 +1,4 @@
+got to learn about how to Configure PC's and Routers 
+through differnt commands and setup a connection 
+between differnt computers using ROUTER
+And ping a message to other IP Address through Command Line Interface of PC's
