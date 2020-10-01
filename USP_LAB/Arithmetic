@@ -1,0 +1,14 @@
+#Write a shell program to perform the basic Airthmetic Operations using expr command Addition,Subtraction,Multiplication and Division
+
+#! /bin/sh
+echo 'Enter a'
+read a
+echo 'Enter b'
+read b
+sum=`echo $a \+ $b|bc`
+echo "$a + $b = $sum"
+diff=`echo $a - $b|bc`
+echo "$a - $b = $diff"
+echo "$a * $b = "`echo $a \* $b|bc`
+echo "$a / $b = "`echo $a \/ $b|bc`
+echo "$a % $b = "`echo $a % $b|bc`
