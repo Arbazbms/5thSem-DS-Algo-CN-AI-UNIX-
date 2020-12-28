@@ -9,6 +9,9 @@ clientSocket.connect((serverName, serverPort))
 sentence = input("Enter the Filename: ")
 clientSocket.send(sentence.encode())
 fileContents = clientSocket.recv(1024).decode()
-print("From Server: ", fileContents)
+if fileContents:
+    print("From Server: ", fileContents)
+else:
+    print("no contents!")
 
 clientSocket.close()
