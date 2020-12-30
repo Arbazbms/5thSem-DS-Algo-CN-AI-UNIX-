@@ -126,13 +126,10 @@ print("Substitutions:")
 print(substitutions)
 
 
-/* output
+# output
 
-Substitutions:
-[('A', 'y'), ('Y', 'x')]
+# Substitutions:
+#[('A', 'y'), ('Y', 'x')]
 
-Substitutions:
-[('A', 'y'), ('mother(y)', 'x')]
-
-
-*/
+# Substitutions:
+# [('A', 'y'), ('mother(y)', 'x')]
